@@ -1,3 +1,3 @@
-cmake_minimum_required(VERSION 2.8)
-project(sampleCmake)
-add_executable(hello main.cpp)
+cmake_minimum_required(VERSION 3.0)
+project(LP1_T03_lista_01)
+add_executable(fibonacci fibonacci.cpp)
