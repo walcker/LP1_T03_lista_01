@@ -10,13 +10,16 @@
 using namespace std;
 
 /*void fib_below_n (int n) {
+
     int x =0, aux;
     int i = 1;
     while (i < n){
       aux = i + x ;
       x = i;
       i = aux;
+
       cout << i << endl;
+
     }
 }*/
 
@@ -46,3 +49,4 @@ int main(){
     //system("pause");
     return 0;
 }
+
