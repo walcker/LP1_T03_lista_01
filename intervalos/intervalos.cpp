@@ -14,12 +14,15 @@ using namespace std;
 int main(void)
 {
 
+    //Permite usar acentos
+    setlocale(LC_ALL,"");
+
     int x = 0;
     int a = 0, b = 0, c = 0, d = 0, e = 0;
-    float A, B, C, D, E;
+    float A, B, C, D, E,y;
 
     cout << "Digite os números de dois dígitos e aperte enter depois de cada um deles." << endl;
-    cout << "Digite 'e' para sair do programa." << endl;
+    cout << "Digite um número negativo para sair do programa." << endl;
 
 
         while(x >= 0){
@@ -34,15 +37,18 @@ int main(void)
             c++;
         }else if(x >=75 && x<100){
             d++;
+        }else if(x < 0){
+            
         }else{
-            e++;
+          e++;
         }
 
     }
 
-    A = a/(a+b+c+d+e);
+   //y = static_cast<float>(a/(a+b+c+d+e)*100);
+    A = (float) a/(a+b+c+d+e)*100;
     cout << A << endl;
 
-    return 0;
+    //return 0;
 
 }
