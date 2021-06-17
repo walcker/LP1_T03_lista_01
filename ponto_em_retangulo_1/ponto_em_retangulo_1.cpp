@@ -13,14 +13,17 @@ int main(){
     //Permite usar acentos
     setlocale(LC_ALL,"");
 
+    //Declaração de variáveis
     int x1 = 1, x2 = 4, y1 = 1, y2 = 4, x, y;
 
+    //Entrada dos valores do ponto para testar no retângulo
     cout << "Entre com o ponto X para testar se pertence ao Retângulo: " << endl;
     cin >> x;
 
     cout << "Entre com o ponto Y para testar se pertence ao Retângulo: " << endl;
     cin >> y;
 
+    //Teste de localização do ponto no retângulo e resultado
     if(x == x1 || x == x2){
       if(y >= y1 && y <= y2){
         cout << "O ponto esta na borda do retângulo" << endl;
