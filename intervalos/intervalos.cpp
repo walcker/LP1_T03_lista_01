@@ -9,23 +9,24 @@
 
 using namespace std;
 
-// Se desejar, crie funções aqui, antes do main().
-
 int main(void)
 {
 
     //Permite usar acentos
     setlocale(LC_ALL,"");
 
+    //Declaração de variáveis
     int x = 0;
     int a = 0, b = 0, c = 0, d = 0, e = 0;
     float A, B, C, D, E,y;
 
+    //Requisitando dados ao usuário
     cout << "Digite os números de dois dígitos e aperte enter depois de cada um deles." << endl;
     cout << "Digite um número negativo para sair do programa." << endl;
 
 
-        while(x >= 0){
+    //Comparando as entradas com os intervalos    
+    while(x >= 0){
 
         cin >> x;
 
@@ -45,10 +46,20 @@ int main(void)
 
     }
 
-   //y = static_cast<float>(a/(a+b+c+d+e)*100);
+   //Imprimindo as porcentagens na tela
     A = (float) a/(a+b+c+d+e)*100;
     cout << A << endl;
-
-    //return 0;
+    
+    B = (float) b/(a+b+c+d+e)*100;
+    cout << B << endl;
+    
+    C = (float) c/(a+b+c+d+e)*100;
+    cout << C << endl;
+    
+    D = (float) d/(a+b+c+d+e)*100;
+    cout << D << endl;
+    
+    E = (float) e/(a+b+c+d+e)*100;
+    cout << E << endl;
 
 }
