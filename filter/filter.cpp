@@ -17,7 +17,7 @@ int main(){
     int vetor2[10];
     int j = 0;
 
-    for(int i = 0; i <= 10; i++){
+    for(int i = 0; i <= 10; i++){      
       if(vetor1[i] > 0){
         vetor2[j] = vetor1[i];
         j++;
