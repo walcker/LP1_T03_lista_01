@@ -27,12 +27,14 @@ int main(){
         cin >> vetor[cont];
     }
 
+    //Imprimindo vetor do usuário na tela
     for(int i = 0; i < tamanho; i++){
       cout << vetor[i] << " ";
     }
 
     cout << endl;
 
+    //Encontrando o maior valor e imprimindo sua posição
     max = vetor[0];
       for(int i = 1; i < 5; i++){
         if(vetor[i] > max){
@@ -41,7 +43,8 @@ int main(){
         }
       }
 
-      min = vetor[0];
+    //Encontrando o menor valor e imprimindo a posição  
+    min = vetor[0];
       for(int i = 1; i < 5; i++){
         if(vetor[i] < min){
           min = vetor[i];
@@ -49,7 +52,7 @@ int main(){
         }
       }
    
-
+    //Imprimindo os valores máximo e mínimo na tela
     cout << max_i << " " << min_i << endl;
 
     return 0;
