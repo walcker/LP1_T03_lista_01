@@ -5,7 +5,10 @@ using std::endl;
 
 int main( void )
 {
+    //Declaração de variáveis
     int m, n, i, soma;
+    
+    //Requisitando valores ao usuário
     cout << " entre com o valor de 'm': " << endl;
     cin >> m;
     cout << " entre com o valor de 'n': " << endl;
@@ -13,6 +16,7 @@ int main( void )
 
     soma = m;
 
+        //Solução do problema
         if(n > 0){
             for(i = 0; i <= n; i++){
                 soma = soma + m+1;
