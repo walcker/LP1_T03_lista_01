@@ -37,7 +37,7 @@ int main(){
     cout << "Entre com o ponto Y para testar se pertence ao Retângulo: " << endl;
     cin >> y;
 
-    //Verificar localização do ponto no retângulo
+    //Verificar localização do ponto no retângulo e imprimir o resultado
     if(x == x1 || x == x2){
       if(y >= y1 && y <= y2){
         cout << "O ponto esta na borda do retângulo" << endl;
